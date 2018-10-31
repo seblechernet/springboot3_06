@@ -74,6 +74,7 @@ public class MainController {
         movie.setTitle("Star Movie");
         movie.setYear(2017);
         movie.setDescription("About the Stars...");
+        movie.setDirector(director);
 
         //add the movie to an empty list
         Set<Movie> movies = new HashSet<Movie>();
@@ -85,6 +86,7 @@ public class MainController {
         movie.setYear(2011);
         movie.setDescription("About Ewoks on the Death Star...");
         movies.add(movie);
+        movie.setDirector(director);
 
         //add the list of movies to the director's movie list
         director.setMovies(movies);
